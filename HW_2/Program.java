@@ -14,9 +14,10 @@ public class Program {
 
 
     }
-    public static void eating(Cat[] cats, Plate plate){
+
+    public static void eating(Cat[] cats, Plate plate) {
         int food = plate.getFood();
-        for (Cat cat: cats){
+        for (Cat cat : cats) {
             food = cat.eat(food);
         }
     }
