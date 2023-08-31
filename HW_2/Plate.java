@@ -14,10 +14,12 @@ public class Plate {
         }
     }
 
+
     public void info() {
         System.out.println("plate: " + food);
     }
-    public void addFood(int food){
+
+    public void addFood(int food) {
         this.food = food;
     }
 }
